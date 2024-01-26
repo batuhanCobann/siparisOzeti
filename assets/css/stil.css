@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(../img/background.svg);
+    background-repeat: no-repeat;
+    background-position:top center;
+    background-color: #E0E8FF;
+    font-family: "Red Hat Display";
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.conteiner{
+    border-radius: 18px;
+    background-color: white;
+    width: 450px;
+    height: 697px;
+    flex-shrink: 0;
+    background-image: url(../img/Music_Flatline.svg);
+    background-repeat: no-repeat;
+}
+
+.conteiner-body{
+    margin-top: 265px;
+    text-align: center;
+    h2{
+        color: #1F2E55;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+    p{
+        text-align: center;
+        padding: 17px 48px;
+        color: #717FA6;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+    }
+}
+
+
+.music{
+    display: flex;
+    margin: auto;
+    width: 354px;
+    height: 98px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    background: #F7F9FF;
+    img{
+        margin: 25px 20px 25px 24px;
+    }
+
+}
+
+
+
+
+.music-text{
+    
+    h2{
+        margin-top: 25px;
+        color: #1F2E55;
+        font-size: 16px;
+        font-weight: 900;
+        line-height: normal;
+    }
+    p{
+        color: #717FA6;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.music-link{
+    margin: 40px 24px 39px 91px;
+    
+}
+
+a{
+    color: #382AE1;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.proceed{
+    margin: 42px 48px 32px 48px;
+    width: 354px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    background: #382AE1;
+    box-shadow: 0px 20px 20px 0px rgba(56, 42, 225, 0.19);
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+}
+
+.cancel{
+    background: none;
+    border: none;
+    margin: 0px 177px 0px 177px;
+    color: #717FA6;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: normal;
+    cursor: pointer;
+}
